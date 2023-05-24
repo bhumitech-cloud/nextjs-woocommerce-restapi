@@ -16,7 +16,7 @@ const SingleProduct = ( { product } ) => {
 					) : null }
 				</div>
 				<div className="product-info">
-					<h4 className="products-main-title text-2xl uppercase">{ product.name }</h4>
+					<h4 className="products-main-title text-2xl font-bold">{ product.name }</h4>
 					<div
 						
 						dangerouslySetInnerHTML={ {

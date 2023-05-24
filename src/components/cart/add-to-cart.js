@@ -11,11 +11,7 @@ const AddToCart = ( { product } ) => {
 	const [ isAddedToCart, setIsAddedToCart ] = useState( false );
 	const [ loading, setLoading ] = useState( false );
 	const addToCartBtnClasses = cx(
-		'duration-500 text-white bg-customPink font-semibold py-2 px-4 rounded shadow',
-		{
-			'bg-white hover:bg-gray-100': ! loading,
-			'bg-gray-200': loading,
-		},
+		'duration-500 text-white bg-customPink font-semibold py-2 px-4 rounded shadow'
 	);
 	
 	if ( isEmpty( product ) ) {
