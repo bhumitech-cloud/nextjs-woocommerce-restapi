@@ -16,7 +16,7 @@ const Header = ( { header } ) => {
 	return (
 		<>
 			<div className="header">
-				<nav className="bg-white py-5">
+				<nav className="bg-customPink py-5">
 					<div className="flex items-center justify-between flex-wrap container mx-auto">
 						<div className="flex items-center flex-shrink-0 text-black mr-20">
 							<Link href="/">

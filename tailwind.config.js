@@ -13,7 +13,8 @@ module.exports = {
 					'royal-blue': '#3b82f6',
 					'wild-blue': '#858Fbb',
 					'gun-powder': '#434656',
-				}
+				},
+				customPink: '#e79eb0'
 			},
 			fontFamily: {
 				'lato': [ 'Lato', 'Helvetica', 'Verdana', 'Tahoma', 'sans-serif' ],

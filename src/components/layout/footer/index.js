@@ -22,9 +22,9 @@ const Footer = ( { footer } ) => {
 	}, [] );
 	
 	return (
-		<footer className="footer bg-blue-500 p-6">
+		<footer className="footer bg-customPink p-6">
 			<div className="container mx-auto">
-				<div className="flex flex-wrap -mx-1 overflow-hidden text-white">
+				<div className="flex flex-wrap -mx-1 overflow-hidden text-black">
 					
 					{ isMounted ? (
 						<>
@@ -56,8 +56,8 @@ const Footer = ( { footer } ) => {
 				</div>
 				<div className="mb-8 mt-8 w-full flex flex-wrap">
 					{/*Copyright Text*/ }
-					<div className="w-full md:w-1/2 lg:w-1/4 text-white">
-						{ copyrightText ? copyrightText : '© Codeytek Academy 2021' }
+					<div className="w-full md:w-1/2 lg:w-1/4 text-black">
+						{ copyrightText ? copyrightText : '© BeautyBarn 2021' }
 					</div>
 					<div className="w-full lg:w-3/4 flex justify-end">
 						{ ! isEmpty( socialLinks ) && isArray( socialLinks ) ? (
