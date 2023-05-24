@@ -16,7 +16,7 @@ const Header = ( { header } ) => {
 	return (
 		<>
 			<div className="header">
-				<nav className="bg-customPink py-5">
+				<nav className="bg-white py-5">
 					<div className="flex items-center justify-between flex-wrap container mx-auto">
 						<div className="flex items-center flex-shrink-0 text-black mr-20">
 							<Link href="/">
@@ -24,18 +24,11 @@ const Header = ( { header } ) => {
 									{
 										siteLogoUrl ? (
 											<img className="mr-2" src={ siteLogoUrl } alt={ `${ siteTitle } logo` }
-											     width="86"
-											     height="86"/>
+											    />
 										) : <TailwindIcon/>
 									}
 								</a>
 							</Link>
-							<span>
-								<Link href="/">
-									<a className="font-semibold text-xl tracking-tight">{ siteTitle || 'WooNext' }</a>
-								</Link>
-								{ siteDescription ? <p className="mb-0">{ siteDescription }</p> : null }
-							</span>
 						</div>
 						<div className="block lg:hidden">
 							<button
