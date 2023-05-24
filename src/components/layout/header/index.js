@@ -24,6 +24,7 @@ const Header = ( { header } ) => {
 									{
 										siteLogoUrl ? (
 											<img className="mr-2" src={ siteLogoUrl } alt={ `${ siteTitle } logo` }
+											width="200px"
 											    />
 										) : <TailwindIcon/>
 									}
