@@ -53,6 +53,20 @@ const Header = ( { header } ) => {
 								</Link>
 							</div>
 							<div className="text-sm font-medium">
+								<a href="#responsive-header"
+								   className="flex mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
+									<span className="flex flex-row items-center lg:flex-col">
+									<User className="mr-1 lg:mr-0"/>
+									Profile
+									</span>
+								</a>
+								<a href="#responsive-header"
+								   className="flex mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
+									<span className="flex flex-row items-center lg:flex-col">
+										<Wishlist className="mr-1 lg:mr-0"/>
+										Wishlist
+									</span>
+								</a>
 								<Link href="/cart">
 									<a className="flex mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10">
 									<span className="flex flex-row items-center lg:flex-col">
